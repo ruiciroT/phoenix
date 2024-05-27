@@ -1,5 +1,42 @@
 # Changelog
 
+## [0.8.2](https://github.com/ruiciroT/phoenix/compare/arize-phoenix-evals-v0.9.2...arize-phoenix-evals-v0.8.2) (2024-05-27)
+
+
+### Features
+
+* Add `response_format` argument to `MistralAIModel` ([#2660](https://github.com/ruiciroT/phoenix/issues/2660)) ([7da51af](https://github.com/ruiciroT/phoenix/commit/7da51afc77984925cd59d7d909142141530684cc))
+* add phoenix-evals support for python 3.12 ([#2554](https://github.com/ruiciroT/phoenix/issues/2554)) ([efb6a76](https://github.com/ruiciroT/phoenix/commit/efb6a764a2aaecfff271b2cd7b7569771989a6a1))
+* Add SQL and Code Functionality Eval Templates ([#2861](https://github.com/ruiciroT/phoenix/issues/2861)) ([c7d776a](https://github.com/ruiciroT/phoenix/commit/c7d776a23e1843cc1bb5c74059496615700a3396))
+* Add user frustration eval ([#2928](https://github.com/ruiciroT/phoenix/issues/2928)) ([406938b](https://github.com/ruiciroT/phoenix/commit/406938b1f19ee6efb7cec630772d9d8940c0953f))
+* Added support for default_headers for azure_openai. ([#3211](https://github.com/ruiciroT/phoenix/issues/3211)) ([2d48192](https://github.com/ruiciroT/phoenix/commit/2d48192d57a1b97e4b08efc30f5c689423667c93))
+* docker image runs as root by default with tags for nonroot and debug images ([#3280](https://github.com/ruiciroT/phoenix/issues/3280)) ([41a4826](https://github.com/ruiciroT/phoenix/commit/41a4826733e104a3ec533a73049df5b778391e7f))
+* **evals:** Add Mistral as an eval model ([#2640](https://github.com/ruiciroT/phoenix/issues/2640)) ([c13ab6b](https://github.com/ruiciroT/phoenix/commit/c13ab6bf644ec285c37e92cc6a7b114a309cec52))
+* update bedrock.py to use messages API for claude ([#2636](https://github.com/ruiciroT/phoenix/issues/2636)) ([3d7d91a](https://github.com/ruiciroT/phoenix/commit/3d7d91ac6f399ceb40771461cd1fc7bfe60ff04f))
+
+
+### Bug Fixes
+
+* Bypass signal handler if running in a thread ([#3251](https://github.com/ruiciroT/phoenix/issues/3251)) ([8c82306](https://github.com/ruiciroT/phoenix/commit/8c8230606d173a55a2f84b2fbdbb48e920cbdb70))
+* clarify error message for missing azure api-key ([#3256](https://github.com/ruiciroT/phoenix/issues/3256)) ([58a1398](https://github.com/ruiciroT/phoenix/commit/58a1398b4f1fcc64af7fdb06463f9a0fc0f53b76))
+* **evals:** incorrect wording in hallucinations ([#3085](https://github.com/ruiciroT/phoenix/issues/3085)) ([7aa0292](https://github.com/ruiciroT/phoenix/commit/7aa029239c2c36b677070e270f7127f6bf6cff5e))
+* evaluators no longer have incorrect type hints ([#3195](https://github.com/ruiciroT/phoenix/issues/3195)) ([7d57e2e](https://github.com/ruiciroT/phoenix/commit/7d57e2e760a98095c57b45b3e39e2d009972faaf))
+* pass verbose to evaluators ([#2597](https://github.com/ruiciroT/phoenix/issues/2597)) ([9467e1d](https://github.com/ruiciroT/phoenix/commit/9467e1deabe58c0079ad8bdb9dfc972ee2ae5c0b))
+* switch license format  in toml ([5c6f345](https://github.com/ruiciroT/phoenix/commit/5c6f345691dcab3d460823329ce31b9060bab02c))
+
+
+### Documentation
+
+* Create an outline for how-to traces (GITBOOK-552) ([6002e05](https://github.com/ruiciroT/phoenix/commit/6002e05fae00673736e63cffd6600bb3c91446ab))
+* remove unused files (GITBOOK-641) ([7ee22fe](https://github.com/ruiciroT/phoenix/commit/7ee22fec26a876db39c19343dd3621e824fad208))
+* Update user guide image (GITBOOK-556) ([ba7040f](https://github.com/ruiciroT/phoenix/commit/ba7040f6b0d73bdc53aabcdb16ea10aa4cd0e5a2))
+
+
+### Miscellaneous Chores
+
+* release 0.8.2 ([d5bde47](https://github.com/ruiciroT/phoenix/commit/d5bde47e3dcd9e7b44754c648570578f1ae48efe))
+* release 4.0.0 ([#3130](https://github.com/ruiciroT/phoenix/issues/3130)) ([f5ae248](https://github.com/ruiciroT/phoenix/commit/f5ae248425a48e8aed265788d3aa0b6cb88b84c5))
+
 ## [0.9.2](https://github.com/Arize-ai/phoenix/compare/arize-phoenix-evals-v0.9.1...arize-phoenix-evals-v0.9.2) (2024-05-21)
 
 
